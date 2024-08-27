@@ -348,6 +348,48 @@ body {
         margin-right: 70px;
     }
 
+    @media (width > 1024px) and (width < 1440px) {
+
+        .navbar-container > ul {
+            visibility: hidden;
+            position: absolute;
+        }
+    
+        .button-container > ul {
+            visibility: hidden;
+            position: absolute;
+            
+        }
+    
+        .burger-icon {
+            visibility: visible;
+            margin-left: 20px;
+        }
+    
+        .header-buttons {
+            flex-direction: column;
+        }
+    
+        .product-container img {
+            object-fit: cover;
+        }
+    
+        .section3-container {
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            padding-inline: 150px;
+        }
+    
+        .section3-container > button {
+            margin: 10px;
+            
+        }
+    
+        .icon-list > li {
+            margin-right: 70px;
+        }
+
     
 
 
